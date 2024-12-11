@@ -32,7 +32,7 @@
         bindings = <&kp>, <&kp>;
     };
 
-   shm: homerow_mods {
+   shm: fast_homerow_mods {
         compatible = "zmk,behavior-hold-tap";
         label = "SUPER_FAST_HOMEROW_MODS";
         #binding-cells = <2>;
